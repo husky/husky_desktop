@@ -10,6 +10,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>husky_description</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
   <run_depend>rviz</run_depend>
 
   <export>
