@@ -1,19 +1,16 @@
 <?xml version="1.0"?>
 <package>
-  <name>husky_description</name>
+  <name>husky_viz</name>
   <version>0.0.0</version>
-  <description>URDF description for Husky</description>
+  <description>Visualization and rviz helpers for Husky</description>
 
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
-  <author email="rgariepy@clearpathrobotics.com">Ryan Gariepy</author>
 
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>robot_state_publisher</run_depend>
-  <run_depend>joint_state_publisher</run_depend>
-  <run_depend>urdf</run_depend>
-  <run_depend>xacro</run_depend>
+  <run_depend>husky_description</run_depend>
+  <run_depend>rviz</run_depend>
 
   <export>
   </export>
