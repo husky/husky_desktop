@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>husky_viz</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>Visualization and rviz helpers for Husky</description>
 
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
