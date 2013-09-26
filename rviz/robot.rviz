@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /Grid1
         - /RobotModel1
+        - /InteractiveMarkers1
       Splitter Ratio: 0.5
     Tree Height: 663
   - Class: rviz/Selection
@@ -115,6 +116,15 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz/InteractiveMarkers
+      Enable Transparency: true
+      Enabled: true
+      Name: InteractiveMarkers
+      Show Axes: false
+      Show Descriptions: true
+      Show Visual Aids: false
+      Update Topic: /husky_marker_server/update
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -134,17 +144,17 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.28768
+      Distance: 3.8916
       Focal Point:
         X: 0
         Y: 0
         Z: 0
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.745399
+      Pitch: 0.810399
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.61538
+      Yaw: 2.45539
     Saved: ~
 Window Geometry:
   Displays:
@@ -162,5 +172,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1535
-  X: 1431
+  X: 1424
   Y: 24
