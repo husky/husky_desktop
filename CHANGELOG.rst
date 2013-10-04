@@ -2,6 +2,11 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2013-10-04)
+------------------
+* Set version requirement for description pkg.
+* Navigation view launch file and rviz file
+
 0.0.2 (2013-09-29)
 ------------------
 * Add interactive_markers pkg to dependencies.
