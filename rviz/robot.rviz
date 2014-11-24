@@ -123,7 +123,7 @@ Visualization Manager:
       Show Axes: false
       Show Descriptions: true
       Show Visual Aids: false
-      Update Topic: /husky_marker_server/update
+      Update Topic: /twist_marker_server/update
       Value: true
   Enabled: true
   Global Options:

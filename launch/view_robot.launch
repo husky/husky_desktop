@@ -2,9 +2,10 @@
 <launch>
   <!-- Launch file to view a Husky in the odom frame and control it using interactive markers -->
   <arg name="config" default="robot" />
-  <node pkg="husky_interactive_markers" name="interactive_markers" type="marker_server">
-    <remap from="cmd_vel" to="husky/cmd_vel"/>
+
+  <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server">
+    <remap from="twist_marker_server/cmd_vel" to="/cmd_vel" />
   </node>
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find husky_viz)/rviz/$(arg config).rviz" />
 </launch>

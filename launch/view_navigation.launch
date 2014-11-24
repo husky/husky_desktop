@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <!-- Launch file to view a Husky in the odom frame and control it using interactive
-       markers or by setting goals for odometry based navigation-->
-  <include file="$(find husky_viz)/launch/view_robot.launch">
-    <arg name="config" value="navigation" />
-  </include>
-</launch>
