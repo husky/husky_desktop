@@ -1,14 +1,11 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="front_laser" default="false" />
-
   <!-- Standalone launcher to visualize the robot model. -->
-  <include file="$(find husky_description)/launch/description.launch">
-    <arg name="front_laser" value="$(arg front_laser)" />
-  </include>
-
-  <param name="use_gui" value="true" />
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <include file="$(find husky_description)/launch/description.launch"/>
+  
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="true" />
+  </node>
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find husky_viz)/rviz/model.rviz" />
 </launch>
