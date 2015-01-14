@@ -2,8 +2,8 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2015-01-14)
+------------------
 * Update visualizations for indigo release
 * update maintainer and dependencies
 * Remove husky_interactive_markers, switch to generic.
