@@ -6,6 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Imu1
       Splitter Ratio: 0.494924
     Tree Height: 763
   - Class: rviz/Selection
@@ -57,16 +58,21 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        base_link:
+        base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        chassis_link:
+        base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         front_bumper_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        front_laser:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -96,6 +102,11 @@ Visualization Manager:
           Show Trail: false
           Value: true
         rear_right_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sick_bracket_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -197,7 +208,7 @@ Visualization Manager:
       Class: rviz_imu_plugin/Imu
       Enabled: true
       Name: Imu
-      Topic: /imu_filtered/data
+      Topic: /imu/data
       Value: true
     - Alpha: 0.7
       Class: rviz/Map
@@ -250,7 +261,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 15.9473
+      Distance: 12.3496
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
