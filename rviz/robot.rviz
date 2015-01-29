@@ -6,10 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Grid1
-        - /LaserScan1
-      Splitter Ratio: 0.5
-    Tree Height: 583
+      Splitter Ratio: 0.494924
+    Tree Height: 763
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -73,11 +71,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        front_laser:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         front_left_wheel_link:
           Alpha: 1
           Show Axes: false
@@ -103,11 +96,6 @@ Visualization Manager:
           Show Trail: false
           Value: true
         rear_right_wheel_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        sick_bracket_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -184,12 +172,65 @@ Visualization Manager:
     - Class: rviz/InteractiveMarkers
       Enable Transparency: true
       Enabled: true
-      Name: InteractiveMarkers
+      Name: TwistMarker
       Show Axes: false
       Show Descriptions: false
       Show Visual Aids: false
       Update Topic: /twist_marker_server/update
       Value: true
+    - Acceleration properties:
+        Acc. vector alpha: 0.5
+        Acc. vector color: 85; 0; 255
+        Acc. vector scale: 0.05
+        Derotate acceleration: false
+        Enable acceleration: true
+      Axes properties:
+        Axes scale: 1
+        Enable axes: true
+      Box properties:
+        Box alpha: 1
+        Box color: 85; 0; 255
+        Enable box: false
+        x_scale: 0.4
+        y_scale: 0.4
+        z_scale: 0.4
+      Class: rviz_imu_plugin/Imu
+      Enabled: true
+      Name: Imu
+      Topic: /imu_filtered/data
+      Value: true
+    - Alpha: 0.7
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: true
+      Enabled: false
+      Name: Global Costmap
+      Topic: /move_base/global_costmap/costmap
+      Value: false
+    - Alpha: 0.7
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: true
+      Enabled: false
+      Name: Local Costmap
+      Topic: /move_base/local_costmap/costmap
+      Value: false
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: false
+      Name: Global Plan
+      Topic: /move_base/NavfnROS/plan
+      Value: false
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 0; 0
+      Enabled: false
+      Name: Local Plan
+      Topic: /move_base/DWAPlannerROS/local_plan
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -209,30 +250,30 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 20.7653
+      Distance: 15.9473
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.408605
-        Y: 1.12014
-        Z: -0.442109
+        X: 0.3359
+        Y: -0.0741868
+        Z: -0.453382
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.975399
+      Pitch: 0.919799
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.08539
+      Yaw: 0.0172144
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 834
+  Height: 1014
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000018c000002ddfc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c0061007900730100000043000002dd000000de00ffffff000000010000010f000002ddfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730100000043000002dd000000b800fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a00000025800fffffffb0000000800540069006d0065010000000000000450000000000000000000000399000002dd00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000018c00000391fc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000004300000391000000de00ffffff000000010000010f000002ddfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000043000002dd000000b800fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a00000025800fffffffb0000000800540069006d00650100000000000004500000000000000000000005ee0000039100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -241,6 +282,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1600
-  X: -9
-  Y: 19
+  Width: 1920
+  X: 1920
+  Y: 27
