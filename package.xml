@@ -2,11 +2,18 @@
 <package>
   <name>husky_viz</name>
   <version>0.1.0</version>
-  <description>Clearpath Husky A200 visualization configurations</description>
+  <description>Visualization configuration for Clearpath Husky</description>
+
+  <author email="rgariepy@clearpathrobotics.com">Ryan Gariepy</author>
+  <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
 
   <maintainer email="pbovbel@clearpathrobotics.com">Paul Bovbel</maintainer>
 
   <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/husky_viz</url>
+  <url type="bugtracker">https://github.com/husky/husky_viz/issues</url>
+  <url type="repository">https://github.com/husly/husky_viz</url>
 
   <buildtool_depend>catkin</buildtool_depend>
  
