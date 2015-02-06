@@ -2,8 +2,8 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2015-02-06)
+------------------
 * Update authors and web
 * Add IMU viz dependency; Update rviz presets
 * Restore interactive marker
