@@ -12,11 +12,11 @@
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/husky_viz</url>
-  <url type="bugtracker">https://github.com/husky/husky_viz/issues</url>
-  <url type="repository">https://github.com/husly/husky_viz</url>
+  <url type="bugtracker">https://github.com/husky/husky_desktop/issues</url>
+  <url type="repository">https://github.com/husly/husky_desktop</url>
 
   <buildtool_depend>catkin</buildtool_depend>
- 
+
   <build_depend>roslaunch</build_depend>
 
   <run_depend>husky_description</run_depend>
