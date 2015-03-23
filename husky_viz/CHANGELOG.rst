@@ -2,8 +2,8 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.1 (2015-03-23)
+------------------
 * Update robot visualization
 * Enable arm visualization by default
 * Fix package urls
