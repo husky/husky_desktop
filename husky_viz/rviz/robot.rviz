@@ -65,17 +65,26 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        base_laser:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_bumper_link:
+        camera_frame_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_laser:
+        front_bumper_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -94,6 +103,10 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        inertial_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         rear_bumper_link:
           Alpha: 1
           Show Axes: false
@@ -109,12 +122,57 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        sick_bracket_link:
+        sensor_arch_mount_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        top_chassis_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         top_plate_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_ee_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_forearm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_shoulder_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_upper_arm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_wrist_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_wrist_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5_arm_wrist_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -297,7 +355,13 @@ Visualization Manager:
           Class: rviz/Path
           Color: 25; 255; 0
           Enabled: true
+          Line Style: Lines
+          Line Width: 0.03
           Name: Global Plan
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
           Topic: /move_base/NavfnROS/plan
           Value: true
         - Alpha: 1
@@ -305,7 +369,13 @@ Visualization Manager:
           Class: rviz/Path
           Color: 255; 0; 0
           Enabled: true
+          Line Style: Lines
+          Line Width: 0.03
           Name: Local Plan
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
           Topic: /move_base/DWAPlannerROS/local_plan
           Value: true
       Enabled: false
@@ -332,22 +402,22 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 11.3869
+      Distance: 8.6785
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -3.01962
-        Y: -0.625473
-        Z: 1.22357
+        X: 1.62908
+        Y: -0.0834703
+        Z: -0.848712
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.7948
+      Pitch: 0.9598
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.3804
+      Yaw: 5.2204
     Saved: ~
 Window Geometry:
   Displays:
@@ -365,5 +435,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1600
-  X: -9
-  Y: 19
+  X: 0
+  Y: 27
