@@ -1,4 +1,5 @@
-== husky_desktop ==
+husky_desktop
+=============
 
 Desktop ROS packages for the Clearpath Husky, which may pull in graphical dependencies.
 
