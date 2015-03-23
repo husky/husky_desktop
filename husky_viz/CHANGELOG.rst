@@ -2,6 +2,13 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update robot visualization
+* Enable arm visualization by default
+* Fix package urls
+* Contributors: Paul Bovbel
+
 0.2.0 (2015-03-23)
 ------------------
 
