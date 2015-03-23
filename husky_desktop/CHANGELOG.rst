@@ -2,6 +2,10 @@
 Changelog for package husky_desktop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
+
 0.1.1 (2015-02-20)
 ------------------
 * Update description and docs
