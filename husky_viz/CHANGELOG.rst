@@ -2,6 +2,12 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Toggle viz settings
+* Integrate husky_customization workflow
+* Contributors: Paul Bovbel
+
 0.2.1 (2015-03-23)
 ------------------
 * Update robot visualization
