@@ -75,15 +75,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        camera_frame_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         front_bumper_link:
           Alpha: 1
           Show Axes: false
@@ -122,57 +113,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        sensor_arch_mount_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         top_chassis_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         top_plate_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_ee_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_forearm_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_shoulder_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_upper_arm_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_wrist_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_wrist_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ur5_arm_wrist_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -324,7 +270,7 @@ Visualization Manager:
               Name: Exploration Costmap
               Topic: /explore_server/explore_costmap/costmap
               Value: true
-          Enabled: false
+          Enabled: true
           Name: Exploration
         - Alpha: 0.7
           Class: rviz/Map
@@ -402,7 +348,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 8.6785
+      Distance: 17.1298
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
