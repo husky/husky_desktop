@@ -2,8 +2,8 @@
 Changelog for package husky_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.2 (2015-04-08)
+------------------
 * Toggle viz settings
 * Integrate husky_customization workflow
 * Contributors: Paul Bovbel
